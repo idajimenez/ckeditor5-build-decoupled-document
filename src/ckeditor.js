@@ -71,8 +71,8 @@ DecoupledEditor.builtinPlugins = [
 DecoupledEditor.defaultConfig = {
 	toolbar: {
 		items: [
-			'heading',
-			'|',
+			// 'heading',
+			// '|',
 			'fontsize',
 			'fontfamily',
 			'|',
