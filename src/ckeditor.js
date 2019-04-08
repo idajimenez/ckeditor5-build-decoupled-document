@@ -33,6 +33,11 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+
+import RealTimeCollaborativeEditing from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativeediting';
+import RealTimeCollaborativeComments from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativecomments';
+import PresenceList from '@ckeditor/ckeditor5-real-time-collaboration/src/presencelist';
+
 import Placeholder from './placeholder/placeholder';
 
 export default class DecoupledEditor extends DecoupledEditorBase {}
@@ -66,7 +71,10 @@ DecoupledEditor.builtinPlugins = [
 	PasteFromOffice,
 	Table,
 	TableToolbar,
-	Placeholder
+	Placeholder,
+	RealTimeCollaborativeEditing,
+	RealTimeCollaborativeComments,
+	PresenceList
 ];
 
 // Editor configuration.
