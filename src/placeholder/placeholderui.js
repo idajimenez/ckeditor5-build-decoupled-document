@@ -11,6 +11,10 @@ export default class PlaceholderUI extends Plugin {
 		const t = editor.t;
 		const placeholderNames = editor.config.get( 'placeholder.types' );
 
+		if ( placeholderNames.length === 0 ) {
+			return;
+		}
+
 		editor.ui.componentFactory.add( 'placeholder', locale => {
 			const dropdownView = createDropdown( locale );
 
