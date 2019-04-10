@@ -34,9 +34,9 @@ import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefrom
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 
-import RealTimeCollaborativeEditing from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativeediting';
-import RealTimeCollaborativeComments from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativecomments';
-import PresenceList from '@ckeditor/ckeditor5-real-time-collaboration/src/presencelist';
+// import RealTimeCollaborativeEditing from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativeediting';
+// import RealTimeCollaborativeComments from '@ckeditor/ckeditor5-real-time-collaboration/src/realtimecollaborativecomments';
+// import PresenceList from '@ckeditor/ckeditor5-real-time-collaboration/src/presencelist';
 
 import Placeholder from './placeholder/placeholder';
 
@@ -72,9 +72,9 @@ DecoupledEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	Placeholder,
-	RealTimeCollaborativeEditing,
-	RealTimeCollaborativeComments,
-	PresenceList
+	// RealTimeCollaborativeEditing,
+	// RealTimeCollaborativeComments,
+	// PresenceList
 ];
 
 // Editor configuration.
