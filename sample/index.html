@@ -72,12 +72,10 @@
 				webSocketUrl: '38347.cke-cs.com/ws',
 				documentId: 'collaboration'
 			},
-			sidebar: {
-				container: document.querySelector('#sidebar')
-			},
 			presenceList: {
 				container: document.querySelector('#presence-list-container')
-			}
+			},
+			removePlugins: ['RealTimeCollaborativeComments', 'ImageCaption']
 		})
 			.then(editor => {
 				window.editor = editor;

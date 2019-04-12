@@ -46,6 +46,7 @@
     "@ckeditor/ckeditor5-media-embed": "^11.1.0",
     "@ckeditor/ckeditor5-paragraph": "^11.0.1",
     "@ckeditor/ckeditor5-paste-from-office": "^11.0.1",
+    "@ckeditor/ckeditor5-real-time-collaboration": "^12.2.0",
     "@ckeditor/ckeditor5-table": "^12.0.1",
     "@ckeditor/ckeditor5-theme-lark": "^13.0.1",
     "eslint": "^5.5.0",
